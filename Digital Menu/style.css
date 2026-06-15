@@ -1,0 +1,44 @@
+/* TYPE selector */
+body {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    background-color: #1a1a1a;
+    color: #f5e6c8;
+}
+
+/* Header */
+header {
+    background-color: #000000;
+    color: #d4af37;
+}
+
+/* Table */
+table {
+    background-color: #262626;
+    width: 90%;
+}
+
+/* Caption */
+caption {
+    font-size: 26px;
+    color: #d4af37;
+}
+
+/* Table header */
+th {
+    background-color: #d4af37;
+    color: #000000;
+    font-size: 18px;
+}
+
+/* Table data */
+td {
+    color: #f5e6c8;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: #d4af37;
+}

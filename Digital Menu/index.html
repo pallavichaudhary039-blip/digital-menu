@@ -2,198 +2,129 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Royal Spice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice Route - Signature Menu</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
 </head>
-
 <body>
 
 <header>
-    <h1 style="text-align: center;">Royal Spice Restaurant</h1>
+    <h1>Spice Route Restaurant</h1>
+    <p>Signature Menu</p>
 </header>
 
 <main>
 
-    <table>
-        <caption style="text-align: center;">Signature Menu</caption>
-        <tr>
-            <th colspan="3">Starters</th>
-        </tr>
-        <tr>
-            <td>Paneer Tikka</td>
-            
-    <td>₹279</td>
-</tr>
+    <!-- Starters -->
+    <section class="menu-section">
+        <h2 class="section-title">Starters</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.p3rGn1lxCFX4e-lw-XXLIQHaLH?pid=Api&P=0&h=180" alt="Paneer Tikka">
+                <div class="item-details">
+                    <div class="item-header">
+                        <span class="item-name">Paneer Tikka</span>
+                        <span class="item-price">₹279</span>
+                    </div>
+                    <p class="item-desc">Spiced cottage cheese cubes grilled to perfection in a tandoor.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.uRo3WItgERmHB4pQlzXOOAHaE8?pid=Api&P=0&h=180" alt="Dahi Ke Kebab">
+                <div class="item-details">
+                    <div class="item-header">
+                        <span class="item-name">Dahi Ke Kebab</span>
+                        <span class="item-price">₹259</span>
+                    </div>
+                    <p class="item-desc">Crispy outside, melt-in-your-mouth spiced yogurt patties inside.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.b7gd7wiNemRtB8xPfledpwHaHa?pid=Api&P=0&h=180" alt="Paneer Malai Tikka">
+                <div class="item-details">
+                    <div class="item-header">
+                        <span class="item-name">Paneer Malai Tikka</span>
+                        <span class="item-price">₹299</span>
+                    </div>
+                    <p class="item-desc">Creamy, mild, and marinated cottage cheese chunks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<tr>
-    <td>Dahi Ke Kebab</td>
-    
-    <td>₹259</td>
-</tr>
+    <!-- Soups -->
+    <section class="menu-section">
+        <h2 class="section-title">Soups</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.ra9PhfZ-OYuspMqlQftqvwHaHa?pid=Api&P=0&h=180" alt="Tomato Basil Soup">
+                <div class="item-details">
+                    <div class="item-header">
+                        <span class="item-name">Tomato Basil Soup</span>
+                        <span class="item-price">₹149</span>
+                    </div>
+                    <p class="item-desc">Rich roasted tomato broth infused with fresh basil leaves.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.d5XeCbhI6KiSOdPySlDVqQHaLH?pid=Api&P=0&h=180" alt="Sweet Corn Soup">
+                <div class="item-details">
+                    <div class="item-header">
+                        <span class="item-name">Sweet Corn Soup</span>
+                        <span class="item-price">₹159</span>
+                    </div>
+                    <p class="item-desc">Classic comforting soup loaded with sweet corn kernels.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.xgLgQA6taI8eELCkvOeAKgHaJ4?pid=Api&P=0&h=180" alt="Hot and Sour Soup">
+                <div class="item-details">
+                    <div class="item-header">
+                        <span class="item-name">Hot and Sour Soup</span>
+                        <span class="item-price">₹169</span>
+                    </div>
+                    <p class="item-desc">Spicy and tangy broth packed with finely chopped vegetables.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<tr>
-    <td>Paneer Malai Tikka</td>
-    
-    <td>₹299</td>
-</tr>
-       <tr>
-            <th colspan="3">Soups</th>
-        </tr>
-<tr>
-    <td>Tomato Basil Soup</td>
-  
-    <td>₹149</td>
-</tr>
-<tr>
-    <td>Sweet Corn Soup</td>
-    
-    <td>₹159</td>
-</tr>
-<tr>
-    <td>Hot and Sour Soup</td>
-    
-    <td>₹169</td>
-</tr>
-<tr>
-            <th colspan="6">Main Courses</th>
-        </tr>
-
-
-<tr>
-    <td>Paneer Lababdar</td>
-    
-    <td>₹349</td>
-</tr>
-
-<tr>
-    <td>Hyderabadi Biryani</td>
-    
-    <td>₹399</td>
-</tr>
-
-<tr>
-    <td>Shahi Paneer</td>
-   
-    <td>₹359</td>
-</tr>
-
-<tr>
-    <td>Dal Makhani</td>
-   
-    <td>₹299</td>
-</tr>
-
-<tr>
-    <td>Navratan Korma</td>
-    
-    <td>₹349</td>
-</tr>
-
-<tr>
-    <td>Veg Jaipuri</td>
-   
-    <td>₹339</td>
-</tr>
-<tr>
-            <th colspan="2">Rice </th>
-        </tr>
-<tr>
-    <td>Paneer Biryani</td>
-    
-    <td>₹379</td>
-</tr>
-
-<tr>
-    <td>Lemon Rice</td>
-   
-    <td>₹199</td>
-</tr>
-<tr>
-            <th colspan="3">Breads</th>
-        </tr>
-<tr>
-    <td>Butter Naan</td>
-   
-    <td>₹79</td>
-</tr>
-
-<tr>
-    <td>Garlic Naan</td>
-    
-    <td>₹89</td>
-</tr>
-
-<tr>
-    <td>Cheese Naan</td>
-    
-    <td>₹109</td>
-</tr>
-<tr>
-            <th colspan="4">Desserts</th>
-        </tr>
-<tr>
-    <td>Shahi Tukda</td>
-   
-    <td>₹199</td>
-</tr>
-
-<tr>
-    <td>Gulab Jamun</td>
-   
-    <td>₹149</td>
-</tr>
-
-<tr>
-    <td>Kesar Pista Kulfi</td>
-    
-    <td>₹199</td>
-</tr>
-
-<tr>
-    <td>Moong Dal Halwa</td>
-    
-    <td>₹199</td>
-</tr>
-<tr>
-            <th colspan="5">Beverages</th>
-        </tr>
-<tr>
-    <td>Masala Chai</td>
-   
-    <td>₹99</td>
-</tr>
-
-<tr>
-    <td>Fresh Lime Soda</td>
-   
-    <td>₹109</td>
-</tr>
-
-<tr>
-    <td>Sweet Lassi</td>
-    
-    <td>₹129</td>
-</tr>
-
-<tr>
-    <td>Rose Milk</td>
-    
-    <td>₹139</td>
-</tr>
-
-<tr>
-    <td>Cold Coffee</td>
-    
-    <td>₹179</td>
-</tr>
-
-    </table>
-
-</main>
-<br>
-<footer>
-    <p style="text-align: center;">© 2026 Royal Spice Restaurant</p>
-</footer>
-
-</body>
-</html>
+    <!-- Main Courses -->
+    <section class="menu-section">
+        <h2 class="section-title">Main Courses</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.D1IZfxn_1yvtszp9kDCAdQHaLF?pid=Api&P=0&h=180" alt="Paneer Lababdar">
+                <div class="item-details">
+                    <div class="item-header">
+                        <span class="item-name">Paneer Lababdar</span>
+                        <span class="item-price">₹349</span>
+                    </div>
+                    <p class="item-desc">Cottage cheese cubes cooked in a rich, creamy tomato-onion gravy.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.TQ-3m8w_TatXcs-SMUtCqwHaE8?pid=Api&P=0&h=180" alt="Hyderabadi Biryani">
+                <div class="item-details">
+                    <div class="item-header">
+                        <span class="item-name">Hyderabadi Biryani</span>
+                        <span class="item-price">₹399</span>
+                    </div>
+                    <p class="item-desc">Fragrant basmati rice layered with aromatic spices and herbs.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.dhwVwfaB6I2qUQg_iXHwKQHaHa?pid=Api&P=0&h=180" alt="Shahi Paneer">
+                <div class="item-details">
+                    <div class="item-header">
+                        <span class="item-name">Shahi Paneer</span>
+                        <span class="item-price">₹359</span>
+                    </div>
+                    <p class="item-desc">Royal preparation of paneer in a thick, rich Mughlai gravy.</p>
+                </div>
+            </div>
+            <div class="menu-item">
